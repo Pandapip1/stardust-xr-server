@@ -172,3 +172,9 @@ path = "codegen"
 
 [dependencies.stardust-xr-server-foundation]
 path = "foundation"
+
+[dependencies.stereokit-rust]
+git = "https://github.com/Pandapip1/StereoKit-rust.git"
+branch = "dynamic-linking"
+features = ["no-event-loop"]
+default-features = false
